@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Heartless';
+    font-weight: 1000;
+   
+    src: url(../fonts/Heartless.woff,);
+    src: url(../fonts/Heartless.woff2);
+}
+
+body{
+    background-color:rgba(0, 0, 0, 0.800) ;
+    
+}
+/* Header */
+
+header{
+    background-color: rgba(0, 0, 0, 0.500);
+    height: 125px;
+    display: flex;
+    justify-content: center;
+
+}
+
+header h1 {
+    font-family: 'Heartless', sans-serif;
+    font-size: 8.2em;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(66, 66, 66) 0 5px 30px ;
+    position: absolute;
+    left: 0.5em;
+    top: -0.2em;
+}
+
+button {
+    position: relative;
+    top: 1.5em;
+    background-color: transparent;
+    border: solid rgba(50, 50, 50);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 0.2em 2.7em;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    box-shadow: rgb(66, 66, 66) 0 5px 30px ;
+
+}
+
+button:hover {
+    color:  rgb(255, 255, 255);
+    background-color:transparent;
+    box-shadow: rgba(255, 255, 255, 0.5) 0 8px 15px;
+    transform: translateY(-2px);
+    border: solid rgb(255, 255, 255);
+}
+
+.top_termos{
+    display: flex;
+    gap: 7em;
+    color: rgb(125, 125, 125);
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    left: 445px;
+    border-radius: 20px;
+    border: solid rgba(50, 50, 50) 2px;
+    background-color: transparent;
+    padding: 1px 10px;
+    
+}
+
+header ul {
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    top: 90px;
+    left: 350px;
+    color: rgba(255, 255, 255);
+    font-size: 17px;
+    padding: 5px;
+}
+
+.img_frete{
+    position: absolute;
+    left: 42.5%;
+    top: 15%;
+    width: 25px;
+    height: 15px;
+    
+}
+
+.img_parcelamento{
+    position: absolute;
+    left: 78%;
+    top: 10.3%;
+    width: 25px;
+    height: 15px;
+    
+}
+
+.img_site_seguro{
+    position: absolute;
+    left: 101%;
+    top: 10.2%;
+    width: 20px;
+    height: 18px;
+    
+}
+
+
+/* Main */
+
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+main img{
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    width: 105em;
+    height: 48em;
+}
+
+main h1{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    font-family: 'Heartless', sans-serif;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(177, 77, 0) 0 10px 60px ;
+    
+}
+
+/* Caixa Buscar */
+
+.buscar {
+    position: relative;
+    top: -38em;
+    left: 28em;
+    max-width: 25em;
+    font-family: 'InkedBones';
+    background: none;
+    border-radius: 20px;
+    text-align: center;
+    color: #ffffff74;
+    font-size: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    transition: var(--transition-cubic-bezier);
+    outline: none;
+}
+/* Cards */
+
+.card {
+    width: 250px;
+    height: 350px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6500);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.10);
+    box-shadow: rgb(177, 77, 0) 0px 0px 10px;
+    
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 55%;
+    left: 8.5%;
+    z-index: 99999999;
+}
+
+
